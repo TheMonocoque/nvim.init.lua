@@ -22,7 +22,7 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 
 vim.opt.scrolloff = 8
-
+vim.opt.mouse = ""
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
