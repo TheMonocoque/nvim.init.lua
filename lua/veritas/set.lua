@@ -7,7 +7,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
--- vim.opt.foldmethod = "indent"
+vim.opt.foldmethod = "indent"
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -27,5 +27,6 @@ vim.opt.mouse = ""
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
+vim.opt.textwidth = 80
 
 vim.g.mapleader = " "
