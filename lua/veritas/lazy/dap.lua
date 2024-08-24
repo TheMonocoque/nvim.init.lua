@@ -95,6 +95,10 @@ return {
       vim.keymap.set("n", "<leader><F1>", function()
         require('dap-python').test_method()
       end)
+      -- TODO: until figure out how to run on single keymap
+      vim.keymap.set("n", "<leader><F5>", function()
+        require('dap-go').debug_test()
+      end)
       vim.keymap.set("n", "<F2>", dap.step_into)
       vim.keymap.set("n", "<F3>", dap.step_over)
       vim.keymap.set("n", "<F4>", dap.step_out)
